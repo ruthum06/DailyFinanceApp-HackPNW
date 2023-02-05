@@ -21,8 +21,9 @@
     <div class='align'>
 
         <div id="purchaseTable">
+            <!--
             <ul id="dateList">
-                <h4>Date (YYYY-MM-DD)</h4>
+                <h4>Date</h4>
             </ul>
             <ul id="titleList">
                 <h4>Memo</h4>
@@ -30,8 +31,11 @@
             <ul id="moneyList">
                 <h4>Amount ($)</h4>
             </ul>
+            -->
+            <ul id="purchaseList">
+                <h4>Date,  Memo,  Amount ($)</h4>
+            </ul>
         </div>
-
 
         <div id='purchases'>
             <input id='moneyInput' type='number' placeholder="$ spent" value=''>
@@ -40,8 +44,7 @@
             <button onclick="newPurchase()">➕ New Purchase</button>
             <br>
             <br>
-            <input id='memo' type='text' placeholder="memo of purchase" value=''>
-            <button onclick="removePurchase()">➖ Remove Purchase</button>
+            <p>➖ Remove Purchase by clicking the <q>x</q> symbol next to an item. </p>
         </div>
     </div>
 </body>
