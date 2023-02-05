@@ -1,3 +1,7 @@
+html, body {
+    background-color: #CBC3E3;
+}
+
 h1 {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -14,8 +18,20 @@ h1 {
     margin-left: 10px;
 }
 
-#past {
-    padding: 100px;
-    border: 5px solid lightblue;
-    margin-left: 5px;
+li {
+    background-color: white;
+}
+
+#purchaseTable {
+    padding: 70px;
+    border: 5px solid purple;
+    background-color: #CBC3E3;
+    display: flex;
+    flex-direction: row;
+    color: purple;
+}
+
+button {
+    background-color: purple;
+    color: white;
 }

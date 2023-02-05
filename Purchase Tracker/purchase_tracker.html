@@ -19,19 +19,29 @@
     <br>
 
     <div class='align'>
-        <ul id="past">
-            <li> test </li>
-        </ul>
+
+        <div id="purchaseTable">
+            <ul id="dateList">
+                <h4>Date (YYYY-MM-DD)</h4>
+            </ul>
+            <ul id="titleList">
+                <h4>Memo</h4>
+            </ul>
+            <ul id="moneyList">
+                <h4>Amount ($)</h4>
+            </ul>
+        </div>
+
+
         <div id='purchases'>
-            <input id='moneyInput' type='number' value=''>
+            <input id='moneyInput' type='number' placeholder="$ spent" value=''>
+            <input id='titleInput' type='text' placeholder="description of purchase" value=''>
             <input id='dateInput' type='date' value=''>
-            <button onclick="newpurchase()">➕ New Purchase</button>
+            <button onclick="newPurchase()">➕ New Purchase</button>
             <br>
             <br>
-            <br>
-            <input id='moneyInput1' type='number' value=''>
-            <input id='dateInput1' type='date' value=''>
-            <button onclick=removepurchase() type="button">➖ Remove Purchase</button>
+            <input id='memo' type='text' placeholder="memo of purchase" value=''>
+            <button onclick="removePurchase()">➖ Remove Purchase</button>
         </div>
     </div>
 </body>
