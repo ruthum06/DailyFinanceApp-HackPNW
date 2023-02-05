@@ -1,0 +1,32 @@
+html,
+body {
+    height: 100%;
+}
+
+#sidebar {
+    display: flex;
+    background-color: #ade8f4;
+    flex-direction: column;
+    width: 420px;
+    height: 100%;
+}
+
+.sidebar_links {
+    color: #023e8a;
+    padding-top: 36px;
+    padding-left: 36px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 36px;
+}
+
+
+/** midnight-blue:          #03045e
+    dark-cornflower-blue:   #023e8a
+    star-command-blue:      #0077b6
+    blue-green:             #0096c7
+    pacific-blue:           #00b4d8
+    sky-blue-crayola:       #48cae4
+    middle-blue:            #90e0ef
+    blizzard-blue:          #ade8f4
+    light-cyan:             #caf0f8 **/

@@ -1,0 +1,53 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url(https://cdn.wallpapersafari.com/61/24/Oy842T.jpg);
+    text-align: center;
+}
+
+h1 {
+    font-family: monospace;
+    color: white;
+    font-size: 50pt;
+}
+
+.enterInputTag,
+#tip,
+#salesTax,
+label,
+.tipPercentage {
+    font-family: monospace;
+    color: white;
+    font-size: 25pt;
+}
+
+button {
+    width: 125pt;
+    height: 40pt;
+    font-family: monospace;
+    font-size: 15pt;
+}
+
+#total {
+    font-family: monospace;
+    color: #d4e208;
+    font-size: 25pt;
+}
+
+#tipPercentageInput[type="text"],
+#subtotalInput[type="text"],
+#state-names {
+    font-family: monospace;
+    color: #000000;
+    font-size: 12pt;
+}
+
+p {
+    font-family: monospace;
+    color: white;
+    font-size: 15pt;
+}

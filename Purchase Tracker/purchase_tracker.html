@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Financial Automator</title>
+
+    <link href="purchase_tracker.css" rel="stylesheet" type="text/css" />
+
+    <script src="purchase_tracker.js" rel="text/javascript"></script>
+</head>
+
+<body>
+    <br>
+    <h1>Purchase Tracker</h1>
+    <br>
+
+    <div class='align'>
+        <ul id="past">
+            <li> test </li>
+        </ul>
+        <div id='purchases'>
+            <input id='moneyInput' type='number' value=''>
+            <input id='dateInput' type='date' value=''>
+            <button onclick="newpurchase()">➕ New Purchase</button>
+            <br>
+            <br>
+            <br>
+            <input id='moneyInput1' type='number' value=''>
+            <input id='dateInput1' type='date' value=''>
+            <button onclick=removepurchase() type="button">➖ Remove Purchase</button>
+        </div>
+    </div>
+</body>
+
+</html>

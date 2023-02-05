@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: purple;
+}
+
+.align {
+    display: flex;
+    align-items: center;
+}
+
+#purchases {
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+#past {
+    padding: 100px;
+    border: 5px solid lightblue;
+    margin-left: 5px;
+}
